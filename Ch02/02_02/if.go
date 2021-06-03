@@ -16,4 +16,17 @@ func main() {
 	} else {
 		fmt.Println("x is not that big")
 	}
+	if x > 5 && x < 15 {
+		fmt.Println("x is just right")
+	}
+
+	if x < 20 || x > 30 {
+		fmt.Println("x is out of range")
+	}
+
+	a, b := 11.0, 20.0
+
+	if frac := a/b; frac > 0.5 {
+		fmt.Println("a is more than half of b")
+	}
 }
